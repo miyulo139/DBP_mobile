@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/findapet"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/huella"
+        android:gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     FIND A PET     "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="#000629"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:hint="  Name"
+                android:fontFamily="casual"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtFullname"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Fullname"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_fullname" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtUsername"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Username"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Password"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_pas"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtContact"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Contact"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_contact"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:onClick="onSignUp"
+                android:text="Registrarme"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

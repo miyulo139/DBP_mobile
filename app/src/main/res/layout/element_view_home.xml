@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/element_view_container"
+    android:padding="10dp"
+    android:background="#ccc">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#D8C8E3"
+                >
+
+                <ImageView
+                    android:id="@+id/idImagen"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bb_149386800_3_dsad_jpg_1084524040"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/idLugar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lugar"
+                            android:fontFamily="casual"
+                            android:drawableLeft= "@drawable/ic_action_local"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            />
+
+                        <TextView
+                            android:id="@+id/idTipo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="10sp"
+                            android:drawableLeft="@drawable/ic_action_pet2"
+                            android:gravity="center"
+                            android:fontFamily="casual"
+                            android:textStyle="bold"
+                            android:text="Tipo"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="135dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/idButton"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:text="¡Mi mascota!"
+                            android:textSize="10dp"
+                            android:fontFamily="casual"
+                            android:textStyle="bold"
+                            ></Button>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Información:  "
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:drawableLeft="@drawable/ic_action_desc2"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/idInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Tipo"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Raza:  "
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:drawableLeft="@drawable/ic_action_finger"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/idRaza"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Raza"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    padd
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Edad:  "
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:drawableLeft="@drawable/ic_action_cake"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/idEdad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Edad"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Color:  "
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:drawableLeft="@drawable/ic_action_color2"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/idColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="9sp"
+                        android:text="Color"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

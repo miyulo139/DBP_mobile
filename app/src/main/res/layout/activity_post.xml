@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/findapet"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/huella"
+        android:gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     I FOUND A PET!    "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#000629" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtPlace"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Lugar del encuentro"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_local"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtType"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:hint="  Perro/Gato"
+                android:fontFamily="casual"
+                android:drawableLeft="@drawable/ic_action_pet"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtBreed"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Raza"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_raza" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtAge"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Edad aparente"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_edad" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtColor"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Color"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtInfo"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="  Breve descripción"
+                android:fontFamily="casual"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_action_desc"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginBottom="2dp"
+                android:text="Finalizar"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:onClick="Sign"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

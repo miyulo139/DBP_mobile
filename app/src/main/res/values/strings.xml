@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Find a pet</string>
+    <string-array name="albergues_name">
+        <item>Mi amigo de cuatro patas</item>
+        <item>Adopta una Mascota</item>
+        <item>Hogar Temporal el Milagro</item>
+        <item>Escucha sus Ladridos</item>
+        <item>Supercats</item>
+        <item>Mi Ángel Guardián</item>
+        <item>Misi Miau</item>
+        <item>Amor y Rescate</item>
+        <item>Los Peques</item>
+    </string-array>
+
+    <string-array name="descripcion">
+        <item>Información: Somos un Albergue de 🐕🐈🐾 gatitos y perritos rescatados de maltrato o abandono, luego de curarlos los ponemos en adopcion responsable !!</item>
+        <item>Información: Albergamos animales en estado de abandono, les brindamos cuidados y procuramos su adopción responsable</item>
+        <item>Información: Albergue con más de 150 animales, encontrados en situación de maltrato y abandono</item>
+        <item>Información: Hola me llamo Perla, desde Diciembre del 2017 empezé a rescatar perritos, ha sido nada fácil, por ello, te pido de corazón ¡AYUDEMOSLOS JUNTOS!</item>
+        <item>Información: Somos un Albergue de gatos en Lima, con más de 120 gatitos rescatados y abandonados</item>
+        <item>Información: Estamos en este mundo para servir. Nuestro albergue tiene 94 gatitos y 16 perritos hermosos,todos rescatados del abandono. </item>
+        <item>Información: El refugio temporal se inicio despues del incendio “provocado" en el Vivero de Ate, donde quemaron vivos mas de 40 gatitos.</item>
+        <item>Información: Organización creada para la rehabilitación y búsqueda de un hogar responsable para perros en estado crítico, ademas de concientización y educación social.</item>
+        <item>Información: Somos una agrupación animalista,en defensa de los más peques</item>
+    </string-array>
+
+    <string-array name="red">
+        <item>Instagram: @miamigodecuatropatas</item>
+        <item>Instagram: @albergueadoptaunamascotasjl</item>
+        <item>Instagram: @hogarelmilagro</item>
+        <item>Instagram: @escuchasusladridos</item>
+        <item>Instagram: @alberguesupercatsperu</item>
+        <item>Facebook: Albergue - Temporal "Mi Ángel Guardián"</item>
+        <item>Facebook: Misi Miau Refugio Temporal</item>
+        <item>Instagram: @albergue_amoryrescate_</item>
+        <item>Instagram: @alberguelospeques</item>
+    </string-array>
+
+</resources>
